@@ -1,0 +1,61 @@
+.navbar {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  .tab.active {
+    font-weight: bold;
+  }
+  
+  .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .category {
+    cursor: pointer;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .category-image-container {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .category-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .myfeed {
+    border: 2px solid #ff6347;
+  }
+  
+  .myfeed-image {
+    border-radius: 50%;
+  }
+  
+  .myfeed-name {
+    font-weight: bold;
+  }
+  
+  .new-label {
+    color: red;
+    font-size: 12px;
+    margin-left: 4px;
+  }
+  
